@@ -1,0 +1,53 @@
+/* About Us */
+.about-container {
+    max-width: 80vw;
+    background: #3A0969;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    margin: 4rem 0rem;
+}
+
+.about-container-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.about-container-icons {
+    margin-left: 1rem;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+    margin: 0rem 4rem 4rem 8rem;
+    padding: 2rem 1rem;
+    background-color: #5A189A;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Footer About */
+.about-footer {
+    background: #240046;
+    width: 79vw;
+    height: 15vh;
+    border-radius: 8px 8px 0px 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0rem;
+}

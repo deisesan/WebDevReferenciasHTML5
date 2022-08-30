@@ -5,8 +5,7 @@ body {
     background-attachment: fixed;
 }
 
-/* #CFCFCF */
-/* Textos */
+/* Texts */
 a, h1, h2, h3, h4, h5, h6, p {
     color: #FFFFFF;
     text-decoration: none;
@@ -26,7 +25,7 @@ p {
 
 /* Menu */
 .menu-container {
-    width: 80vw;
+    max-width: 80vw;
     height: 6vh;
     background: linear-gradient(107.56deg, #5A189A 100%, #4D0E8A 100%);
     border-radius: 8px;
@@ -55,7 +54,7 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    max-width: 80vw;
     padding-top: 5rem;
 }
 
@@ -80,14 +79,14 @@ p {
     height: 4vh;
 }
 
-/* Aprenda Mais */
+/* More */
 .learn-container {
     margin-top: 5rem;
     padding: 1rem;
     background-color: #5A189A;
     display: flex;
     border-radius: 8px;
-    width: 80vw;
+    max-width: 80vw;
 }
 
 .learn-image {
@@ -100,13 +99,13 @@ p {
     width: 40vw;
 }
 
-/*Nossa Stack */
+/* Stack */
 .stack-container {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80vw;
+    max-width: 80vw;
 }
 
 .stack-cards {
@@ -137,12 +136,12 @@ p {
 /* Time */
 .time-container {
     background: #3A0969;
-    margin: 2rem;
+    margin: 2rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    width: 80vw;
+    max-width: 80vw;
 }
 
 .time-button {
@@ -160,11 +159,10 @@ p {
 /* Footer */
 .footer-container {
     background: #240046;
-    width: 80vw;
+    width: 78vw;
     height: 15vh;
     border-radius: 8px 8px 0px 0px;
     position: absolute;
-    margin:-0.5rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
