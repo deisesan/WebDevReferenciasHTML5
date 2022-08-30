@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(107.56deg, #3C096C 0%, #5A189A 100%);
-    padding: 1rem 12rem;   
+    padding: 2rem 2rem;   
     font-family: 'Signika';
     background-attachment: fixed;
 }
@@ -25,8 +25,8 @@ p {
 
 /* Menu */
 .menu-container {
-    max-width: 80vw;
-    height: 6vh;
+    width: 90rem;
+    height: 4rem;
     background: linear-gradient(107.56deg, #5A189A 100%, #4D0E8A 100%);
     border-radius: 8px;
 }
@@ -39,13 +39,13 @@ p {
 }
 
 .menu-image {
-    margin: 0rem 2rem;
-    width: 6vw;
-    height: 6vh;
+    margin: -0.5rem 2rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .menu-padding {
-    margin: 0rem 1rem;
+    margin: -0.5rem 2rem;
 }
 
 /* Manual */
@@ -54,15 +54,15 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
-    padding-top: 5rem;
+    width: 90rem;
+    margin-top: 4rem;
 }
 
 .more-button {
     color: #FFFFFF;
     background-color: #FF9E00;
-    width: 10vw;
-    height: 6vh;
+    width: 10rem;
+    height: 3rem;
     border-radius: 8px;
     border: none;
     font-size: 14px;
@@ -70,33 +70,32 @@ p {
 }
 
 .more-image {
-    width: 35vw;
-    height: 40vh;
+    width: 35rem;
+    height: 30rem;
 }
 
 .more-text {
-    width: 8vw;
-    height: 4vh;
+    width: 8rem;
 }
 
 /* More */
 .learn-container {
-    margin-top: 5rem;
-    padding: 1rem;
+    margin-top: 4rem;
+    padding: 2rem 0rem;
     background-color: #5A189A;
     display: flex;
     border-radius: 8px;
-    max-width: 80vw;
+    width: 90rem;
 }
 
 .learn-image {
-    width: 30vw;
-    height: 25vh;
+    width: 30rem;
+    height: 15rem;
 }
 
 .learn-text {
     margin: 6rem 4rem 0rem;
-    width: 40vw;
+    width: 40rem;
 }
 
 /* Stack */
@@ -105,7 +104,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 80vw;
+    width: 90rem;
 }
 
 .stack-cards {
@@ -118,8 +117,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15vw;
-    margin: 1rem 4rem;
+    width: 15rem;
+    margin: 1rem 2rem;
     padding: 2rem 1rem;
     background-color: #5A189A;
     border-radius: 8px;
@@ -128,8 +127,8 @@ p {
 }  
 
 .stack-image {
-    width: 15vw;
-    height: 15vh;
+    width: 15rem;
+    height: 10rem;
     padding-bottom: 3rem;
 }  
 
@@ -141,15 +140,19 @@ p {
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    max-width: 80vw;
+    width: 90rem;
+}
+
+.time-title {
+    padding-top: 1rem;
 }
 
 .time-button {
     margin: 2rem;
     color: #FFFFFF;
     background-color: #FF9E00;
-    width: 10vw;
-    height: 6vh;
+    width: 10rem;
+    height: 3rem;
     border-radius: 8px;
     border: none;
     font-size: 14px;
@@ -159,20 +162,19 @@ p {
 /* Footer */
 .footer-container {
     background: #240046;
-    width: 78vw;
-    height: 15vh;
+    width: 90rem;
+    height: 8rem;
     border-radius: 8px 8px 0px 0px;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
 }
 
 .footer-image {
-    width: 6vw;
-    height: 6vh;
-    padding-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .footer-padding {
