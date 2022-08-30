@@ -4,60 +4,102 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="css/global.css" media="screen" />
         <title>Manual do HTML5</title>
     </head>
 
     <body>
-        <section>
-            <a href="referencias.html">Referências</a>
-            <a href="sobre.html">Sobre nós</a>
-        </section>
+        <div class="menu-container">
+            <div class="menu-container-links">
+                <div>
+                    <img class="menu-image" src="icones/logo.svg">
+                </div>
+                <div>
+                    <a class="menu-padding" href="referencias.html">Referências</a>
+                    <a class="menu-padding" href="sobre.html">Sobre nós</a>
+                </div>
+            </div>
+        </div>
 
-        <section>
-            <h1>Manual do HTML5</h1>
-            <p>Vamos aprender algumas tags HTML5 no MH5 </p>
-            <a href="referencias.html">Aprender mais</a>
-        </section>
-
-        <section>
-            <h2>Aprenda mais sobre HTML5</h2>
-            <p>
-                Saiba mais sobre algumas tags HTML5 com definições,
-                exemplos, atributos e navegadores que o suportam.
-            </p>
-        </section>
-
-        <section>
-            <h2>Nossa Stack</h2>
+        <div class="more-container">
             <div>
-                <img src="icones/html.png">
-                <p>HTML</p>
-                <p>Linguagem de marcação utilizada na construção de todas as páginas Web.</p>
+                <h1>Manual do <span class="color-text-orange">HTML5</span></h1>
+                <p>Vamos aprender algumas tags HTML5 no MH5 </p>
+                <a href="referencias.html">
+                    <button class="more-button"><img class="more-text" src="icones/seta.svg"></button>
+                </a>
             </div>
             <div>
-                <img src="icones/css.png">
-                <p>CSS</p>
-                <p>Código utilizado para formatar os estilos dos componentes utilizados.</p>
+                <img class="more-image" src="icones/manual-html.svg">
             </div>
+        </div>
+
+        <div class="learn-container">
             <div>
-                <img src="icones/figma.png">
-                <p>FIGMA</p>
-                <p>Editor utilizado na elaboração dos Wireframes e dos protótipos do website.</p>
+                <img class="learn-image" src="icones/aprenda-mais.svg">
             </div>
-        <section>
+            <div class="learn-text">
+                <div>
+                    <h2>Aprenda mais sobre HTML5</h2>
+                </div>
+                <p>
+                    Saiba mais sobre algumas tags HTML5 e suas <span class="color-text-orange">definições</span>, 
+                    <span class="color-text-orange">exemplos</span>, <span class="color-text-orange">atributos</span>
+                    e <span class="color-text-orange">navegadores que o suportam</span>.
+                </p>
+            </div>
+        </div>
+
+        <div class="stack-container">
+            <div class="stack-title">
+                <h2>Nossa Stack</h2>
+            </div>
+            <div class="stack-cards">
+                <div class="stack-card">
+                    <img class="stack-image" src="icones/html.svg">
+                    <p>HTML5</p>
+                    <p>Linguagem de marcação utilizada na construção de todas as páginas Web.</p>
+                </div>
+                <div class="stack-card">
+                    <img class="stack-image" src="icones/css.svg">
+                    <p>CSS</p>
+                    <p>Código utilizado para formatar os estilos dos componentes utilizados.</p>
+                </div>
+                <div class="stack-card">
+                    <img class="stack-image" src="icones/figma.svg">
+                    <p>FIGMA</p>
+                    <p>Editor utilizado na elaboração dos Wireframes e dos protótipos do website.</p>
+                </div>
+            </div>
+        </div>
         
-        <section>
-            <h2>Nosso time</h2>
-            <p>Conheça a equipe de desenvolvimento</p>
-            <a href="sobre.html">Conhecer</a>
-        </section>
+        <div class="time-container">
+            <div>
+                <h2>Nosso time</h2>
+            </div>
+            <div>
+                <a>Conheça nossa equipe de desenvolvimento</a>                
+            </div>
+            <div>
+                <a href="sobre.html">
+                    <button class="time-button">Conhecer</button>
+                </a>               
+            </div>
+        </div>
 
-        <footer>
-            <a href="index.html">Início</a>
-            <a href="referencias.html">Referências</a>
-            <a href="sobre.html">Sobre nós</a>
-            <span>Copyright&copy;2022</span>
-        </footer>
+        <div class="footer-container ">
+            <div>
+                <img class="footer-image" src="icones/logo.svg">
+            </div>
+            <div>
+                <a class="footer-padding" href="index.html">Início</a>
+                <a class="footer-padding" href="referencias.html">Referências</a>
+                <a class="footer-padding" href="sobre.html">Sobre nós</a>
+            </div>
+            <div class="footer-copyright">
+                <a>Copyright&copy;2022</a>
+            </div>
+        </div>
     </body>
 </html>
