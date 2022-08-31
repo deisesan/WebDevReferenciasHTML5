@@ -1,0 +1,17 @@
+#example-code {
+    background: #3A0969;
+    border-left: 6px solid #FF9E00;
+    width: 90rem;
+    height: 8rem;
+
+}
+.next-button {
+    color: #FFFFFF;
+    background-color: #FF9E00;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
