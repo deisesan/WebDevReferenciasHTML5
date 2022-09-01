@@ -1,10 +1,14 @@
 #example-code {
-    background: #3A0969;
-    border-left: 6px solid #FF9E00;
+    position: absolute;
     width: 90rem;
-    height: 8rem;
+    height: 4rem;
+    padding: 2rem 0rem 2rem 2rem;
+    background: #3A0969;
+    border-left: 8px solid #FF9E00;
+    border-radius: 8px;
 
 }
+
 .next-button {
     color: #FFFFFF;
     background-color: #FF9E00;
@@ -14,4 +18,25 @@
     border: none;
     font-size: 14px;
     font-weight: bold;
+}
+
+.attributte-container {
+
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 90rem;
+}
+
+
+.attributte-container-table {
+
+    width: 90rem;
+    height: 10rem;
+    background: #3A0969;
+    border-radius: 8px;
+    align-items: left;
+    padding: 2rem 0rem 4rem 2rem;
+    margin: 0rem 0rem 4rem 0rem;
 }
