@@ -1,6 +1,22 @@
+table {
+    border-collapse: separate;
+    border-spacing: 6rem 0rem;
+}
+
+td {
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+
+.buttons-container {
+    margin: 1rem 0.5rem;
+    width: 90rem;
+}
+
 .buttons {
     color: #FFFFFF;
     background-color: #FF9E00;
+    opacity : 0.9;
     width: 10rem;
     height: 3rem;
     border-radius: 8px;
@@ -9,30 +25,38 @@
     font-weight: bold;
 }
 
+.button-right {
+    margin-right: 68rem;
+}
+
+.tag-container {
+    width: 65rem;
+    margin: 2rem 10rem;
+}
+
 .attributte-container {
-    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 90rem;
+    width: 65rem;
 }
 
 .attributte-table {
-    width: 90rem;
     height: 10rem;
     background: #3A0969;
     border-radius: 8px;
     align-items: left;
     padding: 2rem 0rem 4rem 2rem;
-    margin: 0rem 0rem 4rem 0rem;
 }
 
 .example-code {
-    position: absolute;
-    width: 90rem;
     height: 4rem;
     padding: 2rem 0rem 2rem 2rem;
     background: #3A0969;
     border-left: 8px solid #FF9E00;
     border-radius: 8px;
+}
+
+.tag-image {
+    width: 65rem;
 }
