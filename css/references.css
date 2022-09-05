@@ -1,16 +1,29 @@
 /* References */
-.references-container{
+.references-title {
     padding: 0.5rem 0rem;
+    width: 90rem;
 }
 
-.table-container {
-    background-color: #5A189A;
-    width: 90rem;
-    margin-bottom: 1rem;
+.references-container {
+    padding-bottom: 1rem;
 }
 
-table {
+.references-cards {
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 90rem;
+}
+
+.references-card {
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 10rem;
+    background: #5A189A;
+    border-radius: 8px;
+    margin: 0.5rem 1rem 0.5rem 0rem;
+    padding: 0.5rem 0.5rem 1rem 1rem;
 }
 
 /* Footer References */

@@ -1,15 +1,4 @@
-.example-code {
-    position: absolute;
-    width: 90rem;
-    height: 4rem;
-    padding: 2rem 0rem 2rem 2rem;
-    background: #3A0969;
-    border-left: 8px solid #FF9E00;
-    border-radius: 8px;
-
-}
-
-.next-button {
+.buttons {
     color: #FFFFFF;
     background-color: #FF9E00;
     width: 10rem;
@@ -21,7 +10,6 @@
 }
 
 .attributte-container {
-
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -29,9 +17,7 @@
     width: 90rem;
 }
 
-
-.attributte-container-table {
-
+.attributte-table {
     width: 90rem;
     height: 10rem;
     background: #3A0969;
@@ -39,4 +25,14 @@
     align-items: left;
     padding: 2rem 0rem 4rem 2rem;
     margin: 0rem 0rem 4rem 0rem;
+}
+
+.example-code {
+    position: absolute;
+    width: 90rem;
+    height: 4rem;
+    padding: 2rem 0rem 2rem 2rem;
+    background: #3A0969;
+    border-left: 8px solid #FF9E00;
+    border-radius: 8px;
 }
