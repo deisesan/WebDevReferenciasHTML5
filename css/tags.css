@@ -9,6 +9,8 @@ td {
     vertical-align: text-top;
 }
 
+table tr:hover {background-color: #5A189A;}
+
 .buttons-container {
     margin: 1rem 0.5rem;
     width: 90rem;
@@ -60,4 +62,12 @@ td {
 
 .tag-image {
     width: 65rem;
+}
+
+.output-container {
+    height: auto;
+    background: #3A0969;
+    border-radius: 8px;
+    align-items: left;
+    padding: 1rem 0rem 1rem 2rem;
 }
