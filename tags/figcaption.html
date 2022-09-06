@@ -1,115 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
-        <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
-        <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
-        <title>Manual do HTML5</title>
-    </head>
 
-    <body>
-        <div class="menu-container">
-            <div class="menu-container-links">
-                <div>
-                    <img class="menu-image" src="../icones/logo.svg">
-                </div>
-                <div>
-                    <a class="menu-padding" href='../references.html'>Referências</a>
-                    <a class="menu-padding" href='../about.html'>Sobre nós</a>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+                <a class="menu-padding" href='../about.html'>Sobre nós</a>
             </div>
         </div>
+    </div>
 
-        <div class="buttons-container">
-            <div>
-                <a href="br.html">
-                    <button class="buttons button-right">Anterior</button>
-                </a>
-                <a href="figure.html">
-                    <button class="buttons">Próximo</button>
-                </a>
-            </div>
+    <div class="buttons-container">
+        <div>
+            <a href="br.html">
+                <button class="buttons button-right">Anterior</button>
+            </a>
+            <a href="figure.html">
+                <button class="buttons">Próximo</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;figcaption&gt;</h1>
+            <a>A tag <span class="color-text-orange">&lt;figcaption&gt;</span> em HTML é usada para definir
+                uma legenda para o elemento <span class="color-text-orange">&lt;figure&gt;</span> em um documento.
+                O elemento <span class="color-text-orange">&lt;figcaption&gt;</span> deve, obrigatoriamente,
+                possuir um elemento <span class="color-text-orange">&lt;figure&gt;</span> como pai.
+
+            </a>
         </div>
 
-        <div class="tag-container"> 
-            <div>
-                <h1>&lt;meter&gt;</h1>
-                <a>A tag <span class="color-text-orange">&lt;meter&gt;</span> define uma medida escalar dentro de um
-                    intervalo conhecido ou um valor fracionário.</a>
-            </div>
+        <div>
+            <h2>Exemplo</h2>
+            <p>Use um elemento <span class="color-text-orange">&lt;figure&gt;</span> para marcar uma foto em um
+                documento e um elemento
+                <span class="color-text-orange">&lt;figcaption&gt;</span> para definir uma legenda para a foto:
+            </p>
 
-            <div>
-                <h2>Exemplo</h2>
-                <p>Use o elemento do medidor para exibir um valor escalar dentro de um determinado intervalo (um medidor):</p>
-            
-                <div class="example-code">
-                    <code>
+            <div class="example-code">
+                <code>
                         <p>
-                        &lt;label for="disk_c"&gt;Disk usage C:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_c" value="2" min="0" max="10"&gt;2 out of 10&lt;/meter&gt;&lt;br&gt;<br/><br/>
-    
-                        &lt;label for="disk_d"&gt;Disk usage D:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_d" value="0.6&gt;60%&lt;/meter&gt;<br/>
+                            &lt;figure&gt;<br>
+                            &nbsp;
+                            &lt;img src="pic_trulli.jpg" alt="Trulli" style="width:100%"&gt;<br>
+                            &nbsp;
+                            &lt;figcaption&gt;Fig.1 - Trulli, Puglia, Italy.&lt;/figcaption&gt;<br>
+                            &lt;/figure&gt;
                         </p>
                     </code>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Suporte ao navegador</h2>
-                    <img class="tag-image" src="../support/all.svg">
-                </div>
-            </div>
-
-            <div class="attributte-container">
-                <div>
-                    <h2>Atributos</h2> 
-                </div> 
-                <div class="attributte-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th><span class="color-text-orange">Atributo</span></th>
-                                <th><span class="color-text-orange">Valor</span></th>
-                                <th><span class="color-text-orange">Descrição</span></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Atributo
-                                </td>
-                                <td>
-                                    Valor
-                                </td>
-                                <td>
-                                    Descrição
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
         </div>
 
-        <div class="about-footer">
+        <div>
             <div>
-                <img class="footer-image" src="../icones/logo.svg">
-            </div>
-            <div>
-                <a class="footer-padding" href="../index.html">Início</a>
-                <a class="footer-padding" href="../references.html">Referências</a>
-                <a class="footer-padding" href="../about.html">Sobre nós</a>
-            </div>
-            <div class="footer-copyright">
-                <a>Copyright&copy;2022</a>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;figcaption&gt;</span> é compatível com todos
+                    os principais navegadores, mas ela é nova no HTML5, portanto, você deve usar
+                    em versões mais recentes dos navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
             </div>
         </div>
-    </body>
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+            <p>A maioria dos navegadores exibirá o elemento <span class="color-text-orange">&lt;figcaption&gt;</span>
+                com os seguintes valores padrão:</p>
+
+            <div class="example-code">
+                <code>
+                        <p>
+                            figcaption {<br><br>
+                                &nbsp;display: block;<br><br>
+                            }
+                        </p>
+                    </code>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="about-footer">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="../index.html">Início</a>
+            <a class="footer-padding" href="../references.html">Referências</a>
+            <a class="footer-padding" href="../about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2022</a>
+        </div>
+    </div>
+</body>
+
 </html>
