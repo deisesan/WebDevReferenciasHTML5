@@ -71,3 +71,7 @@ table tr:hover {background-color: #5A189A;}
     align-items: left;
     padding: 1rem 0rem 1rem 2rem;
 }
+
+.table-iframe {
+    border-spacing: 6rem 1rem;
+}
