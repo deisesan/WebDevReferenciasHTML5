@@ -38,23 +38,23 @@
 
         <div class="tag-container"> 
             <div>
-                <h1>&lt;meter&gt;</h1>
-                <a>A tag <span class="color-text-orange">&lt;meter&gt;</span> define uma medida escalar dentro de um
-                    intervalo conhecido ou um valor fracionário.</a>
+                <h1>&lt;param&gt;</h1>
+                <a>
+                  <p>A tag <span class="color-text-orange">&lt;param&gt;</span> é usada para definir
+                    parâmetros para um elemento <span class="color-text-orange">&lt;object&gt;</span>.</p>
+                </a>
             </div>
 
             <div>
                 <h2>Exemplo</h2>
-                <p>Use o elemento do medidor para exibir um valor escalar dentro de um determinado intervalo (um medidor):</p>
+                <p>Defina o parâmetro <span class="color-text-orange">"autoplay"</span> como <span class="color-text-orange">"true"</span>, para que o som comece a tocar assim que a página for carregada:</p>
             
                 <div class="example-code">
                     <code>
                         <p>
-                        &lt;label for="disk_c"&gt;Disk usage C:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_c" value="2" min="0" max="10"&gt;2 out of 10&lt;/meter&gt;&lt;br&gt;<br/><br/>
-    
-                        &lt;label for="disk_d"&gt;Disk usage D:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_d" value="0.6&gt;60%&lt;/meter&gt;<br/>
+                            &lt;object data="horse.wav" &gt;<br>
+                            &nbsp;&nbsp;&lt;param name="autoplay" value="true"&gt;<br>
+                            &lt;/object&gt;
                         </p>
                     </code>
                 </div>
@@ -63,6 +63,7 @@
             <div>
                 <div>
                     <h2>Suporte ao navegador</h2>
+                    <p>A tag <span class="color-text-orange">&lt;param&gt;</span> é compatível com todos os principais navegadores. No entanto, o formato de arquivo definido em <span class="color-text-orange">&lt;object&gt;</span> pode não ser suportado em todos os navegadores.</p>
                     <img class="tag-image" src="../support/all.svg">
                 </div>
             </div>
@@ -83,19 +84,50 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    Atributo
+                                    name
                                 </td>
                                 <td>
-                                    Valor
+                                    name
                                 </td>
                                 <td>
-                                    Descrição
+                                    Específica o nome de um parâmetro
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    value
+                                </td>
+                                <td>
+                                    value
+                                </td>
+                                <td>
+                                    Específica o valor do parâmetro
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
+
+            <div>
+                <h2>Configurações padrão de CSS</h2>
+                <p>A maioria dos navegadores exibirá o elemento <span class="color-text-orange">&lt;param&gt;</span>
+                    com os seguintes valores padrão:</p>
+    
+                <div class="example-code">
+                    <code>
+                            <p>
+                                param {<br><br>
+                                    &nbsp; &nbsp;display: none;<br><br>
+                                }
+                            </p>
+                        </code>
+                </div>
+            </div>
+
+      
+
         </div>
 
         <div class="about-footer">
