@@ -1,4 +1,4 @@
-# WebDev
+# WebDev - Referências HTML5
 # Sobre esse projeto
 Essse repositório foi criado para a realização do primeiro trabalho da disciplina de 
 Desenvolvimento Web - IFNMG, ministrada pelo Professor Luis Guisso. O trabalho consiste
