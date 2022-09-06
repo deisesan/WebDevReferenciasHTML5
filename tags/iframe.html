@@ -1,115 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
-        <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
-        <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
-        <title>Manual do HTML5</title>
-    </head>
 
-    <body>
-        <div class="menu-container">
-            <div class="menu-container-links">
-                <div>
-                    <img class="menu-image" src="../icones/logo.svg">
-                </div>
-                <div>
-                    <a class="menu-padding" href='../references.html'>Referências</a>
-                    <a class="menu-padding" href='../about.html'>Sobre nós</a>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../css/global.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/about.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tags.css" media="screen" />
+    <link rel="icon" href="../icones/logo.svg" type="image/svg+xml" />
+    <title>Manual do HTML5</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-container-links">
+            <div>
+                <img class="menu-image" src="../icones/logo.svg">
+            </div>
+            <div>
+                <a class="menu-padding" href='../references.html'>Referências</a>
+                <a class="menu-padding" href='../about.html'>Sobre nós</a>
             </div>
         </div>
+    </div>
 
-        <div class="buttons-container">
-            <div>
-                <a href="figure.html">
-                    <button class="buttons button-right">Anterior</button>
-                </a>
-                <a href="kbd.html">
-                    <button class="buttons">Próximo</button>
-                </a>
-            </div>
+    <div class="buttons-container">
+        <div>
+            <a href="figure.html">
+                <button class="buttons button-right">Anterior</button>
+            </a>
+            <a href="kbd.html">
+                <button class="buttons">Próximo</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="tag-container">
+        <div>
+            <h1>&lt;iframe&gt;</h1>
+            <a>
+                <p>A tag <span class="color-text-orange">&lt;iframe&gt;</span> específica um quadro embutido.</p>
+                <p>Um quadro embutido é usado para incorporar outro documento no documento HTML atual.</p>
+                <p> <span class="color-text-orange">Dica:</span> Use CSS para estilizar <span
+                        class="color-text-orange">&lt;iframe&gt;</span>.</p>
+                <p><span class="color-text-orange">Dica:</span> É uma boa prática sempre incluir um atributo title para
+                    o arquivo <span class="color-text-orange">&lt;iframe&gt;</span>.
+                    Isso é usado por leitores de tela para ler qual é o conteúdo do arquivo <span
+                        class="color-text-orange">&lt;iframe&gt;</span>.</p>
+
+            </a>
         </div>
 
-        <div class="tag-container"> 
-            <div>
-                <h1>&lt;meter&gt;</h1>
-                <a>A tag <span class="color-text-orange">&lt;meter&gt;</span> define uma medida escalar dentro de um
-                    intervalo conhecido ou um valor fracionário.</a>
-            </div>
+        <div>
+            <h2>Exemplo</h2>
+            <p>Um quadro embutido é marcado da seguinte forma:</p>
 
-            <div>
-                <h2>Exemplo</h2>
-                <p>Use o elemento do medidor para exibir um valor escalar dentro de um determinado intervalo (um medidor):</p>
-            
-                <div class="example-code">
-                    <code>
+            <div class="example-code">
+                <code>
                         <p>
-                        &lt;label for="disk_c"&gt;Disk usage C:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_c" value="2" min="0" max="10"&gt;2 out of 10&lt;/meter&gt;&lt;br&gt;<br/><br/>
-    
-                        &lt;label for="disk_d"&gt;Disk usage D:&lt;/label&gt;<br/>
-                        &lt;meter id="disk_d" value="0.6&gt;60%&lt;/meter&gt;<br/>
+                            &lt;iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"&gt; &lt;/iframe&gt;
                         </p>
                     </code>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Suporte ao navegador</h2>
-                    <img class="tag-image" src="../support/all.svg">
-                </div>
-            </div>
-
-            <div class="attributte-container">
-                <div>
-                    <h2>Atributos</h2> 
-                </div> 
-                <div class="attributte-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th><span class="color-text-orange">Atributo</span></th>
-                                <th><span class="color-text-orange">Valor</span></th>
-                                <th><span class="color-text-orange">Descrição</span></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    Atributo
-                                </td>
-                                <td>
-                                    Valor
-                                </td>
-                                <td>
-                                    Descrição
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
             </div>
         </div>
 
-        <div class="about-footer">
+        <div>
             <div>
-                <img class="footer-image" src="../icones/logo.svg">
-            </div>
-            <div>
-                <a class="footer-padding" href="../index.html">Início</a>
-                <a class="footer-padding" href="../references.html">Referências</a>
-                <a class="footer-padding" href="../about.html">Sobre nós</a>
-            </div>
-            <div class="footer-copyright">
-                <a>Copyright&copy;2022</a>
+                <h2>Suporte ao navegador</h2>
+                <p>A tag <span class="color-text-orange">&lt;iframe&gt;</span> é compatível com todos
+                    os principais navegadores.</p>
+                <img class="tag-image" src="../support/all.svg">
             </div>
         </div>
-    </body>
+
+        <div class="attributte-container">
+            <div>
+                <h2>Atributos</h2>
+            </div>
+            <div class="attributte-table" >
+                <table>
+                    <thead>
+                        <tr>
+                            <th><span class="color-text-orange">Atributo</span></th>
+                            <th><span class="color-text-orange">Valor</span></th>
+                            <th><span class="color-text-orange">Descrição</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>allow</td>
+                            <td>-</td>
+                            <td>Especifica uma política de recursos para o &lt;iframe&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>allowfullscreen</td>
+                            <td>true<br>
+                                false</td>
+                            <td>Defina como true se &lt;iframe&gt; puder ativar o modo de tela inteira chamando o método
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>allowpaymentrequest</td>
+                            <td>true<br>
+                                false</td>
+                            <td>Definido como verdadeiro se um &lt;iframe&gt; de origem cruzada tiver permissão para
+                                invocar a API de solicitação de pagamento</td>
+                        </tr>
+                        <tr>
+                            <td>height</td>
+                            <td>pixels</td>
+                            <td>Especifica a altura de um &lt;iframe&gt;. A altura padrão é 150 pixels</td>
+                        </tr>
+                        <tr>
+                            <td>loading</td>
+                            <td>eager<br>
+                                lazy</td>
+                            <td>Especifica se um navegador deve carregar um iframe imediatamente ou adiar o carregamento
+                                de iframes até que algumas condições sejam atendidas</td>
+                        </tr>
+                        <tr>
+                            <td>name</td>
+                            <td>text</td>
+                            <td>Especifica o nome de um &lt;iframe&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>referrerpolicy</td>
+                            <td>no-referrer<br>
+                                no-referrer-when-downgrade<br>
+                                origin<br>
+                                origin-when-cross-origin<br>
+                                same-origin<br>
+                                strict-origin-when-cross-origin<br>
+                                unsafe-url</td>
+                            <td>Especifica quais informações de referência enviar ao buscar o iframe</td>
+                        </tr>
+                        <tr>
+                            <td>sandbox</td>
+                            <td>allow-forms<br>
+                                allow-pointer-lock<br>
+                                allow-popups<br>
+                                allow-same-origin<br>
+                                allow-scripts<br>
+                                allow-top-navigation</td>
+                            <td>Habilita um conjunto extra de restrições para o conteúdo em um &lt;iframe&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>src</td>
+                            <td>URL</td>
+                            <td>Especifica o endereço do documento a ser incorporado no &lt;iframe&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>srcdoc</td>
+                            <td>HTML_code</td>
+                            <td>Especifica o conteúdo HTML da página a ser exibida no &lt;iframe&gt;</td>
+                        </tr>
+                        <tr>
+                            <td>width</td>
+                            <td>pixels</td>
+                            <td>Especifica a largura de um &lt;iframe&gt;. A largura padrão é 300 pixels </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+       
+
+        <div>
+            <h2>Mais exemplos</h2>
+            <p>Adicionar e remover bordas de iframe (com CSS):</p>
+
+            <div class="example-code">
+                <code>
+                    <p>&lt;iframe src=&quot;/default.asp&quot; width=&quot;100%&quot; height=&quot;300&quot; style=&quot;border:1px solid 
+                        black;&quot;&gt;<br>&lt;/iframe&gt;<br><br>&lt;iframe src=&quot;/default.asp&quot; width=&quot;100%&quot; 
+                        height=&quot;300&quot; style=&quot;border:none;&quot;&gt;<br>&lt;/iframe&gt;</p>
+                    </code>
+            </div>
+        </div>
+
+
+        <div>
+            <h2>Configurações padrão de CSS</h2>
+            <p>A maioria dos navegadores exibirá o elemento <span class="color-text-orange">&lt;iframe&gt;</span> com os seguintes valores padrão:</p>
+
+            <div class="example-code">
+                <code>
+                    <p>
+                        iframe:focus {<br>
+                            &nbsp; &nbsp;outline: none;<br>
+                          }<br><br>
+                          
+                          iframe[seamless] {<br>
+                            &nbsp; &nbsp;display: block;<br>
+                          }
+                    </p>
+                    </code>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="about-footer">
+        <div>
+            <img class="footer-image" src="../icones/logo.svg">
+        </div>
+        <div>
+            <a class="footer-padding" href="../index.html">Início</a>
+            <a class="footer-padding" href="../references.html">Referências</a>
+            <a class="footer-padding" href="../about.html">Sobre nós</a>
+        </div>
+        <div class="footer-copyright">
+            <a>Copyright&copy;2022</a>
+        </div>
+    </div>
+</body>
+
 </html>
