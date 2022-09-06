@@ -58,3 +58,16 @@
     border-radius: 150px;
     width: 10rem;
 }
+
+@media screen and (min-width: 1024px)
+{
+    .about-container {
+        margin-left: 10rem;
+    }
+    .about-cards {
+        margin-left: 14rem;
+    }
+    .about-footer {
+        margin-left: 10rem;
+    }
+}

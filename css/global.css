@@ -104,6 +104,7 @@ a, h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 1rem;
 } 
 
 .stack-card {
@@ -176,4 +177,26 @@ a, h1, h2, h3, h4, h5, h6, p {
 
 .footer-copyright {
     padding-top: 2rem;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .menu-container {
+        margin-left: 10rem;
+    }
+    .more-container {
+        margin-left: 10rem;
+    }
+    .learn-container {
+        margin-left: 10rem;
+    }
+    .stack-container {
+        margin-left: 10rem; 
+    }
+    .time-container  {
+        margin-left: 10rem; 
+    }
+    .footer-container  {
+        margin-left: 10rem; 
+    }
 }

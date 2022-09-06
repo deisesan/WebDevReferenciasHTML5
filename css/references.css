@@ -38,3 +38,16 @@
     align-items: center;
     padding: 2rem 0rem;
 }
+
+@media screen and (min-width: 1024px)
+{
+    .references-title {
+        margin-left: 10rem;
+    }
+    .references-container {
+        margin-left: 10rem;
+    }
+    .references-footer {
+        margin-left: 10rem;
+    }
+}
